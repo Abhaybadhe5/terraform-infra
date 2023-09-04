@@ -57,7 +57,7 @@ resource "azurerm_windows_virtual_machine" "firstrg" {
  resource_group_name = azurerm_resource_group.firstrg.name
  size = "Standard_B1ls"
  admin_username = "useradmin"
- admin_password = "Justdoit@2023"
+ admin_password = ""
 
 
  network_interface_ids = [
